@@ -1,23 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41d9dc66-c06f-460d-a498-73bf24c3d319" name="Changes" comment="" />
+    <list default="true" id="41d9dc66-c06f-460d-a498-73bf24c3d319" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/member/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member/templates/member_view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member/templates/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/start_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/member/start_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/member/templates/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/templates/memberlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/member/templates/memberlist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/member/templates/register.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1yn7gWjgyWnVQS6pSGMbHUz5Od9" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ncstest" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\flaskweb\member\templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.start_app">
+    <configuration name="indexerror" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="flaskweb" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/member" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/member/indexerror.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="start_app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="flaskweb" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -42,6 +92,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.start_app" />
+        <item itemvalue="Python.indexerror" />
       </list>
     </recent_temporary>
   </component>
@@ -55,5 +106,17 @@
       <updated>1632875610091</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
