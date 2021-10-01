@@ -51,7 +51,7 @@ def register():
         conn.commit()
         conn.close()
 
-        return redirect(url_for('memberlist'))  # 강제로 주소(페이지)이동
+        return redirect(url_for('main'))  # 강제로 주소(페이지) 이동
 
     else:
         return render_template('register.html')
