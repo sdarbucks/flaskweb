@@ -1,7 +1,7 @@
 <header>
     <nav>
         <ul>
-        {% if login %}
+        {% if session['userID'] %}
             <li><a href="{{ url_for('main') }}">HOME</a></li>
             <li><a href="{{ url_for('logout') }}">({{ username }}님) 로그아웃</a></li>
             <li><a href="{{ url_for('memberlist') }}">회원목록</a></li>

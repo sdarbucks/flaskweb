@@ -12,6 +12,10 @@
         <h2>회원 정보</h2>
         <table class="tbl_view">
             {% if rs %}
+            <colgroup>
+                <col style="background-color: #eee">
+                <col>
+            </colgroup>
             <tr>
                 <td>아이디 </td>
                 <td><input type="text" name="memberid" value="{{ rs[0] }}"></td>
@@ -33,10 +37,12 @@
                 <td><input type="text" name="reg_date" value="{{ rs[4] }}"></td>
             </tr>
             <tr>
-                <td colspan="2" style = "text-align:center">
-                    <a href="{{ url_for('memberlist') }}">목록 </a>
+                <td colspan="2" style="background-color: #fff">
+                    <a href="{{ url_for('memberlist', id = rs[0]) }}" class="button">목록 </a>
                     {% if rs[0] == session['userID'] %}
-                    <a href="#">탈퇴 </a>
+                    <a href="{{ url_for('member_edit', id = rs[0]) }}" class="button">수정 </a>
+                    <a onclick="return confirm('정말로 탈퇴하시겠습니까?')"
+                       href="{{ url_for('member_delete', id = rs[0]) }}" class="button">탈퇴 </a>
                     {% endif %}
                 </td>
             </tr>

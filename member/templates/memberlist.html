@@ -12,10 +12,11 @@
         <h2>회원 목록</h2>
         <table class="tbl_list">
             <tr>
-                <th>아이디</th><th>패스워드</th><th>이름</th><th>나이</th><th>가입일</th>
+                <th>번호</th><th>아이디</th><th>패스워드</th><th>이름</th><th>나이</th><th>가입일</th>
             </tr>
             {% for i in rs %}
             <tr>
+                <td>{{ loop.index }}</td>
                 <td><a href="{{ url_for('member_view', id=i[0]) }}">{{ i[0] }}</a></td>
                 <td>{{ i[1] }}</td>
                 <td>{{ i[2] }}</td>
