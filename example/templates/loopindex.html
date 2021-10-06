@@ -9,16 +9,17 @@
     <ul>
     {% for item in items %}
         <li>
-            {{ loop.index }}번 요소 - {{ item }}
+           {{ loop.index }}번 요소 -  {{ item }}
         </li>
     {% endfor %}
     </ul>
 
     <ul>
-    {% for item in items %}
+    {% for item in items  %}
         {% if loop.index < 3 %}
         <li>
             {{ loop.index }}번째 줄입니다.
+            - {{ item }}
         </li>
         {% endif %}
     {% endfor %}

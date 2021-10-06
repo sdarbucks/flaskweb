@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41d9dc66-c06f-460d-a498-73bf24c3d319" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/example/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/static/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/static/js/addp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/templates/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/templates/loopindex.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/templates/node.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/member/templates/member_edit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/start_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/member/start_app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/member/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/templates/member_view.html" beforeDir="false" afterPath="$PROJECT_DIR$/member/templates/member_view.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/templates/memberlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/member/templates/memberlist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/member/templates/navbar.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +32,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/member/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
