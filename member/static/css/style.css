@@ -45,4 +45,4 @@ section img{margin-bottom: 10px;}
 .tbl_view a{text-decoration: none; color: #000;}
 .tbl_view .button{border: 1px solid #333; background-color: #eee; padding: 5px;
     margin: 5px; border-raduis: 3px; width: 55px; height: 35px;}
-.tbl_view input[type="submit"], input[type="reset"]{width: 55px; height: 35px; margin: 5px; font-size: 1em}
+.tbl_view input[type="button"], input[type="reset"]{width: 55px; height: 35px; margin: 5px; font-size: 1em}

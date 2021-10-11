@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41d9dc66-c06f-460d-a498-73bf24c3d319" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/member/static/js/checkmember.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/member/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/member/templates/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +35,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../webproject/polls" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
@@ -41,7 +44,7 @@
       <recent name="C:\flaskweb\member\static\images" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.app">
+  <component name="RunManager" selected="Python.start_app">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="flaskweb" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -107,8 +110,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.app" />
         <item itemvalue="Python.start_app" />
+        <item itemvalue="Python.app" />
         <item itemvalue="Python.indexerror" />
       </list>
     </recent_temporary>
